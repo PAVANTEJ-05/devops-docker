@@ -19,7 +19,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            pavantej05/devops-docker:latest
+            pavantej05/devops-docker
           tags: |
             type=raw,value=latest
             type=ref,event=branch
